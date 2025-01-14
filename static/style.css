@@ -1,0 +1,318 @@
+body {
+	background-image: url("kamien.png");
+}
+
+a {
+	color: #212121;
+}
+
+#logo {
+	width: 714px;
+	height: 100px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+}
+
+#content-panel {
+	width: 75%;
+	height: 710px;
+
+	background-color: #e3e3e3;
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#panel-controll {
+	width: 100%;
+	height: 45px;
+
+
+	background-color: #212121;
+}
+
+.panel-controll-item {
+	width: 150px;
+	height: 100%;
+
+	background-color: #212121;
+	color: #e3e3e3;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 27px;
+
+	box-sizing: border-box;
+    padding: 6px;
+    padding-left: 11px;
+
+    float: left;
+}
+
+#info {
+	width: 65%;
+	height: 655px;
+
+	float: left;
+}
+
+#buy {
+	width: 40%;
+	height: 59%;
+
+	float: left;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+    padding: 22px;
+}
+
+#desc {
+	width: 60%;
+	height: 59%;
+
+	float: left;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 27px;
+	box-sizing: border-box;
+    padding: 16px;
+    padding-left: 56px;
+
+}
+
+#links {
+	width: 100%;
+	height: 41%;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+    padding: 16px;
+
+    float: left;
+}
+
+.link-item {
+	width: 33%;
+	height: 100%;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+
+	float: left;
+}
+
+.button {
+	width: 175px;
+	height: 75px;
+
+	border-radius: 25px;
+
+	background-color: #212121;
+	color: #e3e3e3;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 27px;
+	box-sizing: border-box;
+    padding: 22px;
+    text-align: center;
+}
+
+
+/* Buy game content */
+#steps-container {
+	width: 100%;
+	height: 65px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+    text-align: center;
+}
+
+.steps {
+	width: 33%;
+	height: 60px;
+
+	float: left;
+}
+
+
+.step-item {
+	width: 15px;
+	height: 15px;
+
+	border-radius: 50%;
+
+	background-color: #212121;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#order-form {
+	width: 100%;
+	height: 350px;
+}
+
+.form-side {
+	width: 50%;
+	height: 300px;
+
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+
+	float: left;
+}
+
+#order-finish {
+	width: 100%;
+	height: 100px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+
+	margin-top: 25px;
+
+	clear: both;
+}
+
+#buy-submit {
+	width: 175px;
+	height: 50px;
+
+	border-radius: 25px;
+
+	background-color: #212121;
+	color: #e3e3e3;
+
+	margin-left: 70%;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+    text-align: center;
+}
+
+/* Other */
+.warning-message {
+	font-family: 'Josefin Sans', sans-serif;
+	color: red;
+}
+
+.generic-container {
+	width: 100%;
+	height: 65px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	box-sizing: border-box;
+	text-align: center;	
+}
+
+.generic-half-container {
+	width: 50%;
+	height: 300px;
+
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+
+	float: left;
+}
+
+.generic-small-container {
+	width: 100%;
+	height: 350px;
+}
+
+/* For smaller devices */
+@media only screen and (max-width: 1180px) {
+	#content-panel {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		height: 2175px;
+	}
+
+	#desc {
+		width: 100%;
+		height: 600px;
+
+		clear: both;
+	}
+
+	#buy {
+		width: 100%;
+		height: 400px;
+
+		clear: both;
+	}
+
+	.button {
+		margin-bottom: 51px;
+	}
+
+	.panel-controll-item {
+		width: 33%;
+		height: 100%;
+
+		background-color: #212121;
+		color: #e3e3e3;
+
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 27px;
+
+		box-sizing: border-box;
+	    padding: 6px;
+	    padding-left: 11px;
+
+	    float: left;
+	}
+
+	.link-item {
+		width: 100%;
+		height: 300px;
+
+		clear: both;
+	}
+
+	.form-side {
+		width: 100%;
+		clear: both;
+	}
+
+	#buy-submit {
+		margin-left: auto;
+		margin-right: auto;
+
+		clear: both;
+	}
+
+	.generic-half-container {
+		width: 100%;
+		clear: both;
+	}
+
+	#logo-img {
+		width: 100%;
+		height: auto;
+
+		margin-bottom: 25px;
+	}
+
+	#logo {
+		width: 100%;
+		height: fit-content;
+
+		display: flex;
+  		justify-content: center;
+	}
+
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Pawiomen i Kobramen</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Oficjalna strona gry przygodowej Pawiomen i Kobramen." />
+	<meta name="keywords" content="Pik, Pawiomen i Kobramen, Pawiomen, Kobramen, gra pik, gra, pik launcher">
+	<meta name="author" content="Pik Software Development S.A.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="date" content="01.02.2022">
+
+	<link rel="canonical" href="#mainpage" />
+	<link rel="stylesheet" href="static/style.css">
+	<link rel="icon" href="static/ikona.png">
+
+</head>
+<body>
+
+	<!-- Logo and title -->
+	<div id="logo">
+		<img src="static/logo1.png" style="margin-left: auto; margin-right: auto;" alt="logotyp gry Pawiomen i Kobramen">
+	</div>
+
+	<!-- Main content panel -->
+	<main id="content-panel"> 
+
+		<nav id="panel-controll">
+			<a href="/"><div class="panel-controll-item">O grze</div></a>
+			<a href="/zakup"><div class="panel-controll-item">Kup grę</div></a>
+			<a href="/moje-konto"><div class="panel-controll-item">Moje konto</div></a>
+		</nav>
+
+		<!-- Top content -->
+		<section class="generic-container">
+			<h1>Zaloguj się</h1>
+		</section>
+		<br><br><br>
+
+		<form method="POST" action="/moje-konto">
+			<div class="generic-container">
+				<label for="username">Nazwa Użytkownika</label><br>
+  					<input type="text" name="username"><br>
+  					<label for="passwd">Hasło</label><br>
+  					<input type="password" name="passwd"><br>
+  					<input type="submit" id="buy-submit" name="buy-submit" value="Zaloguj" style="margin-right: auto; margin-left: auto; margin-top: 15px;">
+			</div>
+		</form>
+		<br><br><br><br>
+
+		<!-- Message -->
+		<div class="generic-container">
+			<h4 class="warning-message">{{message}}</h4>
+		</div>
+
+	</main>
+
+</body>
+</html>
