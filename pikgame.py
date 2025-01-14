@@ -65,10 +65,10 @@ def zakup_dokonany_view(usrname: str  = "", passwd: str  = "", email: str  = "")
 	try:
 		db = mysql.connector.connect(
 			host=SQL_SERVER,
-			user="root",
-			passwd="new_password",
-			database="pikaccounts",
-			auth_plugin='mysql_native_password'
+			user=="#######",,
+			passwd="#######",
+			database="#######",
+			auth_plugin='="#######",'
 		)
 
 		kursor = db.cursor()
